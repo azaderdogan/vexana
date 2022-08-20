@@ -9,7 +9,7 @@ class CustomLogger {
 
   void printError(String data) {
     if (isEnabled ?? false) {
-      _logger.e(data);
+      _logger.i(data);
     }
     return;
   }
